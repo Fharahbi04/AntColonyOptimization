@@ -1,0 +1,6 @@
+6️⃣ Kesimpulan Jawaban Resmi
+
+Berdasarkan hasil pengujian, perubahan jumlah semut (n_ants) pada algoritma Ant Colony Optimization tidak berpengaruh signifikan terhadap nilai silhouette score.
+Hal ini disebabkan karena proses optimasi telah mencapai titik konvergensi optimal pada iterasi-iterasi awal.
+Dengan demikian, peningkatan jumlah semut hanya meningkatkan jumlah eksplorasi tanpa menghasilkan solusi yang lebih baik.
+Kondisi ini wajar dan menunjukkan bahwa model ACO memiliki stabilitas hasil yang baik terhadap variasi jumlah semut.
