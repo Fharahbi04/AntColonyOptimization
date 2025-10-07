@@ -167,13 +167,42 @@ st.markdown("""
 st.markdown("""
 <div class='kesimpulan'>
 <h2>📘 Kesimpulan</h2>
-🧩 **Kesimpulan Umum:**  
-Berdasarkan hasil perbandingan dan visualisasi, **2 cluster memberikan hasil terbaik** dengan akurasi yang baik.
 
-💰 **Pendapatan:** Cluster 1: <10–70 juta / tahun • Cluster 2: 70–>150 juta / tahun  
-🤝 **Bantuan:** Cluster 1: 33% menerima, Cluster 2: 20% menerima  
-💻 **Teknologi:** Cluster 2 unggul 2% dalam promosi digital  
-🎓 **Pendidikan:** Cluster 1 dominan SMA, Cluster 2 dominan S1  
-🚻 **Jenis Kelamin:** Perempuan lebih banyak di kedua cluster
+🧩 **Kesimpulan Umum:**  
+Berdasarkan hasil perbandingan dan visualisasi, didapatkan bahwa **2 cluster memberikan hasil terbaik** dengan akurasi yang baik.
+
+---
+            
+<h2>📘 Keterangan Cluster</h2>
+Ciri-ciri utama dari masing-masing cluster adalah sebagai berikut:
+            
+
+💰 **Pendapatan:**  
+- Cluster 1: < 10 juta – 70 juta / tahun  
+- Cluster 2: 70 juta – >150 juta / tahun  
+            
+💻 **Pemanfaatan Teknologi:**  
+- Cluster 2 unggul 2% dalam promosi digital dibanding Cluster 1 
+        
+🎓 **Pendidikan:**  
+- Cluster 1: didominasi lulusan SMA (pendidikan merata)  
+- Cluster 2: didominasi lulusan S1
+            
+🏠 **Status Kepemilikan Tanah:**  
+- Cluster 1: 48% bukan milik sendiri, 52% milik sendiri  
+- Cluster 2: 42% bukan milik sendiri, 58% milik sendiri  
+
+🤝 **Bantuan Pemerintah:**  
+- Cluster 1: 33% menerima bantuan, 67% tidak  
+- Cluster 2: 20% menerima bantuan, 80% tidak  
+
+ 
+❤️‍🩹 **Asuransi Kesehatan:**
+- Cluster 1: 70% anggotanya memiliki asuransi
+- Cluster 2: 68% anggotanya memiliki asuransi 
+            
+🚻 **Jenis Kelamin:**  
+- Perempuan lebih banyak di kedua cluster  
+- Cluster 1 memiliki 14% lebih banyak perempuan dibanding Cluster 2
 </div>
 """, unsafe_allow_html=True)
