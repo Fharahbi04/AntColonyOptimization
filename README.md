@@ -13,8 +13,8 @@ menggunakan algoritma **Ant Colony Optimization**.
 
 ## 📂 Project Structure
 ```
-├── aco.py # Main Streamlit app
-├── AntColonyOptimization.py # Optional Streamlit app
+├── aco.py # Optional Streamlit app (Jika ingin menggunakan fungsi aco yang telah disimpan kedalam aco_model.pkl)
+├── AntColonyOptimization.py # main Streamlit app
 ├── aco_model.pkl # Fungsi ACO yang telah disimpan
 ├── SKRIPSI2200018132.ipynb # Notebook Analisis
 ├── requirements.txt # Daftar dependencies
@@ -35,5 +35,5 @@ pip install -r requirements.txt
 
 ### Run Streamlit
 ```
-streamlit run aco.py
+streamlit run AntColonyOptimization.py
 ```
